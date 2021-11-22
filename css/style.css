@@ -14,7 +14,7 @@ body {
     float: left;
 }
 
-.nav__list .nav__link {
+.nav__link {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
@@ -24,11 +24,11 @@ body {
     font-size: 17px;
 }
 
-.nav__list .nav__link:hover {
+.nav__link:hover {
     background-color: #555;
 }
 
-.nav__list  .nav__icon {
+.nav__icon {
     display: none;
 }
 
@@ -37,32 +37,30 @@ body {
         display: none;
     }
 
-    .nav__list  .nav__icon {
+    .nav__icon {
         float: right;
         display: inline-block;
     }
 }
 
 @media screen and (max-width:680px) {
-    .nav__list.resonsive {
+    .nav__list.responsive {
         position: relative;
     }
 
-    .nav__list.responsive .nav__icon {
+    .responsive .nav__icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .nav__list.responsive .nav__item {
+    .responsive .nav__item {
         float: none;
         display: inline;
     }
 
-    .nav__list.responsive .nav__link {
+    .responsive .nav__link {
         display: block;
         text-align: left;
     }
-
-
 }
